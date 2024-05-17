@@ -1,0 +1,14 @@
+// @use "base/variables" as v;
+// @forward "base/normalize";
+
+// usar use para extraer elemento y en forward es compilar el archivo scss directamente
+
+// body {
+//   font-family: v.$fuente_principal;
+//   font-optical-sizing: auto;
+//   font-style: normal;
+//   color: v.$negro;
+// }
+
+@forward "base";
+@forward "layout";
